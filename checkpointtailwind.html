@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+
+<body class="dark:bg-slate-600">
+    <div class="flex gap-4  ">
+        <div class="grid grid-cols-1">
+            <div class="bg-blue-300 block p-3 text-center text-white hover:text-gray-600">There's newer version of tailwind Css</div>
+            <div class="bg-blue-500 flex gap-3 p-4 text-white  ">
+                <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 128 128"><path fill="#38bdf8" d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597c6.398-8.531 13.867-11.73 22.398-9.597c4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602q-9.6 12.803-22.399 9.602c-4.87-1.215-8.347-4.746-12.207-8.66c-6.27-6.367-13.53-13.738-29.394-13.738M32.004 64c-17.066 0-27.73 8.531-32 25.602Q9.603 76.799 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66c6.274 6.367 13.536 13.738 29.395 13.738c17.066 0 27.73-8.53 32-25.597q-9.6 12.797-22.399 9.597c-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64m0 0"/></svg>    
+        <div class="text-[24px] hover:text-gray-600 "> Home</div>
+        <div class="text-[24px]   hover:text-gray-600">About </div>
+        <div class="grid grid-cols-1 ">
+            <div class=" peer text-[24px]   hover:text-gray-600 "> Contact </div>
+
+            <div class="hidden peer-hover:block hover:block  ">
+                <div class="text-blue-900 ">Whatsapp</div>
+                <div class="text-blue-900 ">Snapchat</div>
+                <div class="text-blue-900"> telegram</div>
+            </div>
+        </div>
+
+        <div onclick="javascript:document.querySelector('html').className === 'dark' 
+      ? document.querySelector('html').className = 'light' 
+      : document.querySelector('html').className = 'dark'" class="cursor-pointer ml-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                <g fill="none" stroke="currentColor" stroke-dasharray="4" stroke-dashoffset="4" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M13 4h1.5M13 4h-1.5M13 4v1.5M13 4v-1.5">
+                        <animate id="lineMdMoonAltLoop0" fill="freeze" attributeName="stroke-dashoffset"
+                            begin="0.7s;lineMdMoonAltLoop0.begin+6s" dur="0.4s" values="4;0" />
+                        <animate fill="freeze" attributeName="stroke-dashoffset"
+                            begin="lineMdMoonAltLoop0.begin+2s;lineMdMoonAltLoop0.begin+4s" dur="0.4s" values="4;0" />
+                        <animate fill="freeze" attributeName="stroke-dashoffset"
+                            begin="lineMdMoonAltLoop0.begin+1.2s;lineMdMoonAltLoop0.begin+3.2s;lineMdMoonAltLoop0.begin+5.2s"
+                            dur="0.4s" values="0;4" />
+                        <set attributeName="d" begin="lineMdMoonAltLoop0.begin+1.8s"
+                            to="M12 5h1.5M12 5h-1.5M12 5v1.5M12 5v-1.5" />
+                        <set attributeName="d" begin="lineMdMoonAltLoop0.begin+3.8s"
+                            to="M12 4h1.5M12 4h-1.5M12 4v1.5M12 4v-1.5" />
+                        <set attributeName="d" begin="lineMdMoonAltLoop0.begin+5.8s"
+                            to="M13 4h1.5M13 4h-1.5M13 4v1.5M13 4v-1.5" />
+                    </path>
+                    <path d="M19 11h1.5M19 11h-1.5M19 11v1.5M19 11v-1.5">
+                        <animate id="lineMdMoonAltLoop1" fill="freeze" attributeName="stroke-dashoffset"
+                            begin="1.1s;lineMdMoonAltLoop1.begin+6s" dur="0.4s" values="4;0" />
+                        <animate fill="freeze" attributeName="stroke-dashoffset"
+                            begin="lineMdMoonAltLoop1.begin+2s;lineMdMoonAltLoop1.begin+4s" dur="0.4s" values="4;0" />
+                        <animate fill="freeze" attributeName="stroke-dashoffset"
+                            begin="lineMdMoonAltLoop1.begin+1.2s;lineMdMoonAltLoop1.begin+3.2s;lineMdMoonAltLoop1.begin+5.2s"
+                            dur="0.4s" values="0;4" />
+                        <set attributeName="d" begin="lineMdMoonAltLoop1.begin+1.8s"
+                            to="M17 11h1.5M17 11h-1.5M17 11v1.5M17 11v-1.5" />
+                        <set attributeName="d" begin="lineMdMoonAltLoop1.begin+3.8s"
+                            to="M18 12h1.5M18 12h-1.5M18 12v1.5M18 12v-1.5" />
+                        <set attributeName="d" begin="lineMdMoonAltLoop1.begin+5.8s"
+                            to="M19 11h1.5M19 11h-1.5M19 11v1.5M19 11v-1.5" />
+                    </path>
+                    <path d="M19 4h1.5M19 4h-1.5M19 4v1.5M19 4v-1.5">
+                        <animate id="lineMdMoonAltLoop2" fill="freeze" attributeName="stroke-dashoffset"
+                            begin="2.9s;lineMdMoonAltLoop2.begin+6s" dur="0.4s" values="4;0" />
+                        <animate fill="freeze" attributeName="stroke-dashoffset" begin="lineMdMoonAltLoop2.begin+2s"
+                            dur="0.4s" values="4;0" />
+                        <animate fill="freeze" attributeName="stroke-dashoffset"
+                            begin="lineMdMoonAltLoop2.begin+1.2s;lineMdMoonAltLoop2.begin+3.2s" dur="0.4s"
+                            values="0;4" />
+                        <set attributeName="d" begin="lineMdMoonAltLoop2.begin+1.8s"
+                            to="M20 5h1.5M20 5h-1.5M20 5v1.5M20 5v-1.5" />
+                        <set attributeName="d" begin="lineMdMoonAltLoop2.begin+5.8s"
+                            to="M19 4h1.5M19 4h-1.5M19 4v1.5M19 4v-1.5" />
+                    </path>
+                </g>
+                <path fill="none" stroke="currentColor" stroke-dasharray="56" stroke-dashoffset="56"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z">
+                    <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="56;0" />
+                </path>
+            </svg>
+            <path class="fill-black dark:fill-white" fill-rule="evenodd"
+                d="M11.017 2.802a9.25 9.25 0 1 0 10.181 10.181A7.25 7.25 0 1 1 11.017 2.802M1.25 12C1.25 6.063 6.063 1.25 12 1.25c.717 0 1.075.571 1.137 1.026c.059.438-.103.995-.606 1.299a5.75 5.75 0 1 0 7.894 7.894c.304-.503.861-.665 1.299-.606c.455.062 1.026.42 1.026 1.137c0 5.937-4.813 10.75-10.75 10.75S1.25 17.937 1.25 12"
+                clip-rule="evenodd" />
+            </svg>
+        </div>
+    </div>
+    <div class="grid pt-4 md:grid-cols-2 sm:grid-cols-1 ">
+        <div class="mx-auto flex w-[620px] flex-col  gap-2 border-2  border-gray-900 rounded-xl p-2">
+
+            <div class="pt-11 m-2 "><img
+                    src="https://img.freepik.com/premium-vector/calligraphy-lettering-handwriting-graduation-ceremony-typography_739369-161.jpg?w=826"
+                    class="w-55 mx-auto ">
+            </div>
+            <div class="text-[48px]  font-[900] mt-38 px-9 dark:text-white justify-center">
+                Success is delivred
+                to the deserving
+                congratulation!
+            </div>
+
+            <div class="text-[24px] justify-center p-2 m-12">
+                Congratulations messages hold a special place in our hearts as they celebrate the accomplishments of friends, family, and loved ones. A personalized message can make all the difference in conveying the joy you feel for the recipient. This article will provide you with several examples and phrases that can be used as a starting point for crafting your own unique congratulations messages.
+                There are numerous occasions where it’s appropriate
+                to extend your heartfelt congratulations to friends, family,
+                or colleagues. In this section, we will cover three common areas where
+                congratulations are warranted: Academic Achievements,
+                Professional Milestones, and Personal Milestones.
+            </div>
+
+            <button class=" border rounded-md bg-blue-900 text-white  p-2 m-2 w-1/3">Get </button>
+        </div>
+<div>
+    <div class="mx-auto flex w-[620px] flex-col  gap-2 border-2 border-gray-900 rounded-xl p-2">
+
+        <div class="pt-11 m-2 "><img
+                src="https://img.freepik.com/premium-vector/calligraphy-lettering-handwriting-graduation-ceremony-typography_739369-161.jpg?w=826"
+                class="w-55 mx-auto ">
+        </div>
+        <div class="text-[48px]  font-[900] mt-38 px-9 dark:text-white justify-center">
+            You followed your dreams 
+            amd made it happy!
+        </div>
+
+        <div class="text-[24px] justify-center p-2 m-12">
+            There are numerous occasions where it’s appropriate
+            to extend your heartfelt congratulations to friends, family,
+            or colleagues. In this section, we will cover three common areas where
+            congratulations are warranted: Academic Achievements,
+            Professional Milestones, and Personal Milestones.
+        </div>
+
+        <button class=" border rounded-md bg-blue-900 text-white  p-2 m-2 w-1/3">Get </button>
+    </div>
+
+    <form>
+            <label class="block font-semibold m-2">username </label>
+            <input type="text" class="border-2  rounded-md border-blue-500 peer" required>
+            <div class="text-red-900 peer-invalid:visible invisible"> this field is required</div>
+
+            <label class="block font-semibold m-2">Email </label>
+            <input type="text" class="border-2  rounded-md border-blue-500 peer" required>
+            <div class="text-red-900 peer-invalid:visible invisible"> this field is required</div>
+            <button type="submit" class=" border rounded-md bg-blue-900 text-white  p-2 m-2 w-30">submit </button>
+
+
+    </div>
+   
+
+   
+    <div class=" border-4 border-x-gray-600 rounded-sm p-7 grid md:grid-cols-4 sm:grid-cols-2 gap-2">
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.XfW7lfvDoHTE4o_kJZA5aAAAAA?rs=1&pid=ImgDetMain"
+                class="w-35 mx-auto ">
+            <div>Personal Milestones</div>
+        </div>
+        <div>
+
+            <img src="https://th.bing.com/th/id/OIP.XfW7lfvDoHTE4o_kJZA5aAAAAA?rs=1&pid=ImgDetMain"
+                class="w-35 mx-auto ">
+            <div>Personal Milestones</div>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.XfW7lfvDoHTE4o_kJZA5aAAAAA?rs=1&pid=ImgDetMain"
+                class="w-35 mx-auto ">
+            <div>Personal Milestones</div>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.XfW7lfvDoHTE4o_kJZA5aAAAAA?rs=1&pid=ImgDetMain"
+                class="w-35 mx-auto ">
+            <div>Personal Milestones</div>
+        </div>
+    </div>
+    <div class=" border-4 border-x-gray-600 rounded-sm p-2 grid md:grid-cols-4 sm:grid-cols-2 gap-2">
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.XfW7lfvDoHTE4o_kJZA5aAAAAA?rs=1&pid=ImgDetMain"
+                class="w-35 mx-auto ">
+            <div>Personal Milestones</div>
+        </div>
+        <div>
+
+            <img src="https://th.bing.com/th/id/OIP.XfW7lfvDoHTE4o_kJZA5aAAAAA?rs=1&pid=ImgDetMain"
+                class="w-35 mx-auto ">
+            <div>Personal Milestones</div>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.XfW7lfvDoHTE4o_kJZA5aAAAAA?rs=1&pid=ImgDetMain"
+                class="w-35 mx-auto ">
+            <div>Personal Milestones</div>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.XfW7lfvDoHTE4o_kJZA5aAAAAA?rs=1&pid=ImgDetMain"
+                class="w-35 mx-auto ">
+            <div>Personal Milestones</div>
+        </div>
+    </div>
+    <div class="flex gap-2  items-center justify-normal">
+    <form>
+        <label class="block font-semibold m-1"> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256"><path fill="#0a66c2" d="M218.123 218.127h-37.931v-59.403c0-14.165-.253-32.4-19.728-32.4c-19.756 0-22.779 15.434-22.779 31.369v60.43h-37.93V95.967h36.413v16.694h.51a39.91 39.91 0 0 1 35.928-19.733c38.445 0 45.533 25.288 45.533 58.186zM56.955 79.27c-12.157.002-22.014-9.852-22.016-22.009s9.851-22.014 22.008-22.016c12.157-.003 22.014 9.851 22.016 22.008A22.013 22.013 0 0 1 56.955 79.27m18.966 138.858H37.95V95.967h37.97zM237.033.018H18.89C8.58-.098.125 8.161-.001 18.471v219.053c.122 10.315 8.576 18.582 18.89 18.474h218.144c10.336.128 18.823-8.139 18.966-18.474V18.454c-.147-10.33-8.635-18.588-18.966-18.453"/></svg></label>
+        <input type="text" class="border-2  rounded-md border-blue-500 peer m-2" required>
+
+        <label class="block font-semibold m-1"> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256"><g fill="none"><rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/><rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/><path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396s-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413s.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5s6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355s22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334s-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334"/><defs><radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse"><stop stop-color="#fd5"/><stop offset=".1" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></radialGradient><radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse"><stop stop-color="#3771c8"/><stop offset=".128" stop-color="#3771c8"/><stop offset="1" stop-color="#60f" stop-opacity="0"/></radialGradient></defs></g></svg> </label> 
+        <input type="text" class="border-2  rounded-md border-blue-500 peer m-2" required>
+        <button type="submit" class=" border rounded-md bg-blue-500  hover:bg-blue-300 text-black  m-2">Connect </button>
+<div class="flex flex-row gap-3 text-[16px] p-3 m-6">copyright <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416a208 208 0 1 1 0-416m0 464a256 256 0 1 0 0-512a256 256 0 1 0 0 512m-56.6-199.4c-31.2-31.2-31.2-81.9 0-113.1s81.9-31.2 113.1 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-50-50-131-50-181 0s-50 131 0 181s131 50 181 0c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-31.2 31.2-81.9 31.2-113.1 0z"/></svg>
+    
+</div>
+
+
+</body>
+
+</html>
