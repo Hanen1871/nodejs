@@ -1,0 +1,20 @@
+ALGORITHM Sentence
+VAR
+   som, nombre, j, i:INTEGER 
+    B, voyel: STRING;
+BEGIN
+ Voyel:="aeiouAUEIO"
+ nombre:= LENGTH(B)
+
+FOR  j  FROM 0 TO LENGTH(B) STEP 1 DO
+        IF (B[j] = " ") THEN
+       som= som + 1
+END_IF
+FOR i FROM 0 TO LENGTH(B) STEP 1 DO
+       IF (B[j]=Voyel[i]) THEN
+       voyel= voyel+1 
+       END_IF
+END_FOR 
+END_FOR
+
+END
